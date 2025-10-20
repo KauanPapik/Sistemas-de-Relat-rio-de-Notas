@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import os
-DATA_FILE = 'alunos.txt'
+DATA_FILE = 'valores.txt'
 def salvar_aluno(nome, serie, n1, n2, n3):
     with open(DATA_FILE, 'a') as f:
         f.write(f"{nome},{serie},{n1},{n2},{n3}\n")
